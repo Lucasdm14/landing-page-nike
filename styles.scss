@@ -16,6 +16,7 @@ body {
 }
 
 
+/* MEDIA QUERIES */
 
 
 
@@ -28,12 +29,9 @@ body {
 }
 
 .store {
-    img {
         display: none;
     }
-}
-
- .img-section {
+.img-section {
    flex-wrap: wrap;
     text-align: center;
  }
@@ -45,8 +43,18 @@ ul {
     padding: 0;
 }
 }
-
 }
+
+
+
+@media screen and (max-width: 520px) {
+.img-section-home {
+    display: flex;
+    flex-direction: column;
+   }
+  }
+
+
 
 
 /* HEADER */
@@ -65,7 +73,7 @@ header {
         font-family: var(--font-family);
         display: flex;
         padding: 10px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-decoration: none;
         color: var(--color-black);
     }
@@ -121,11 +129,7 @@ img {
 
 /* TITULO DE SECTION DE PRODUCTOS */
 
-h2 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: "Montserrat", sans-serif;
-}
+
 
 
 
@@ -133,10 +137,15 @@ h2 {
 
 .img-section {
     width: 100%;
+    h2 {
+        text-align: center;
+        margin-top: 50px;
+        font-family: "Montserrat", sans-serif;
+    }
 .tittle-img {
     font-family: var(--font-family);
     color: var(--color-orange);
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1rem;
 }
 .grey-img {
@@ -245,9 +254,10 @@ a:visited {
     justify-content: center;
     font-family: var(--font-family);
     font-size: 0.9rem;
+    
     ul {
+        width: 250px;
         padding: 0;
-        width: 200px;
         }
     li {
         font-family: var(--font-family);
@@ -269,8 +279,7 @@ gap: 20px;
 padding: 20px;
 img {
    width: 350px;
-   
-}
+   }
 a {
    text-decoration: none;   
 }
@@ -290,5 +299,63 @@ li {
 .grey-img {
     color: grey;
     font-weight: var(--font-size);
+}
+}
+
+
+
+
+/* CONTACT HTML */
+
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    border: 1px solid #e5e5e5;
+    margin: auto;
+    padding: 20px;
+    margin-top: 120px;
+.section-contact-up {
+        border-bottom: 1px solid #e5e5e5;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-family: var(--font-family);
+            padding: 10px;
+            font-size: .8rem;
+        }
+        p {
+            font-family: var(--font-family);
+            font-size: .8rem; 
+        }
+        h2 {
+            font-size: 1.7rem;
+        }
+    }
+.section-contact-down {
+    display: flex;
+   flex-wrap: wrap;
+    width: 100%;
+    ul {
+        padding: 10px;
+        list-style: none;
+        h3 {
+            font-size: 1rem;
+        }
+        li {
+            padding: 6px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: #727273;
+        }
+        a:visited {
+            color: none; /* Color del enlace después de ser visitado */
+          }
+    }
 }
 }
