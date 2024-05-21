@@ -20,7 +20,7 @@ body {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
    
 .header-index {
     nav {
@@ -106,6 +106,7 @@ header {
     width: 100%;
    a {
   display: flex;
+  width: 100%;
 }
 img {
     display: flex;
