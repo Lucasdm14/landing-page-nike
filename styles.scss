@@ -338,15 +338,15 @@ li {
 .section-contact-down {
     display: flex;
    flex-wrap: wrap;
-    width: 100%;
+   margin-top: 20px;
     ul {
-        padding: 10px;
         list-style: none;
         h3 {
             font-size: 1rem;
+            margin: 0;
         }
         li {
-            padding: 6px;
+            padding: 4px;
         }
         a {
             text-decoration: none;
