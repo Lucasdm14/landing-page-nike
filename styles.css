@@ -33,10 +33,37 @@ body {
     padding: 0;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 590px) {
+  .search-register {
+    display: flex;
+  }
+  .search-register input {
+    width: 150px;
+  }
+  .search-register a {
+    display: none;
+  }
   .img-section-home {
     display: flex;
     flex-direction: column;
+  }
+  .productos-store {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .section-store-products {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .section-store-products a {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-store-products a img {
+    width: 300px;
+    height: 300px;
   }
 }
 /* HEADER */
