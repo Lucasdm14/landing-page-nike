@@ -377,9 +377,23 @@ li {
 
 /* REGISTRO HTML */
 
+
+.tittle-register {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--font-family);
+}
+
+
+.text-section-register-tittle {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: var(--font-family);
+}
+
 .main-registro {
     justify-content: center;
-    margin-top: 150px;
   .section-registro {
         display: flex;
         gap: 20px;
