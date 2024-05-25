@@ -237,6 +237,7 @@ footer .footer-tittle {
 }
 .section-store-products img {
   width: 350px;
+  height: 350px;
 }
 .section-store-products a {
   text-decoration: none;
@@ -339,7 +340,7 @@ footer .footer-tittle {
 }
 .main-registro .section-registro input {
   border-radius: 10px;
-  border: 1px solid;
+  border: 1px solid #979797;
   height: 35px;
 }
 .main-registro .form-registro-right {
@@ -376,7 +377,9 @@ footer .footer-tittle {
   cursor: pointer;
   text-transform: uppercase;
   font-size: 0.7rem;
-  color: var(--color-black);
+  color: #fff;
+  background-color: #111;
+  font-weight: 700;
 }
 .main-registro .button-registro a:hover {
   background-color: rgb(238, 238, 238);
