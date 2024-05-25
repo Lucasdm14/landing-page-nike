@@ -334,13 +334,13 @@ footer .footer-tittle {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 250px;
+  width: 350px;
 }
 .main-registro .form-registro-left {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 250px;
+  width: 350px;
 }
 .main-registro .input-info {
   text-align: center;
