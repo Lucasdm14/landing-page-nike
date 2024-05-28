@@ -25,12 +25,10 @@ body {
     text-align: center;
   }
   .footer-index {
-    flex-direction: column;
-    text-align: center;
-    align-content: center;
+    flex-direction: flex;
   }
   .footer-index ul {
-    padding: 0;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 590px) {
@@ -64,6 +62,11 @@ body {
   .section-store-products a img {
     width: 300px;
     height: 300px;
+  }
+  .footer-index {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
   }
 }
 /* HEADER */
@@ -215,7 +218,7 @@ footer .footer-tittle {
   font-family: Helvetica, sans-serif;
 }
 
-/* STORE.HTML */
+/* STORE HTML */
 /* TITTLE STORE */
 .tittle-store {
   margin-top: 100px;

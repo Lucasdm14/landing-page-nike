@@ -36,11 +36,9 @@ body {
     text-align: center;
  }
 .footer-index {
-flex-direction: column;
-text-align: center;
-align-content: center;
+flex-direction: flex;
 ul {
-    padding: 0;
+    padding: 10px;
 }
 }
 }
@@ -66,9 +64,6 @@ ul {
     flex-direction: column;
     padding: 0;
    }
-   .categorias-productos {
-  
-   }
 .section-store-products {
     display: flex;
     flex-direction: column;
@@ -80,10 +75,14 @@ ul {
             width: 300px;
             height:300px;
         }
-    }
    }
   }
-
+  .footer-index {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+}
 
 
 
@@ -262,10 +261,7 @@ a:visited {
 
 
 
-/* STORE.HTML */
-
-
-
+/* STORE HTML */
 /* TITTLE STORE */
 
 .tittle-store{
@@ -275,8 +271,6 @@ a:visited {
     width: 100%;
     font-family: var(--font-family);
 }
-
-
 
 
 
