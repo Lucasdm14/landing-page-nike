@@ -37,9 +37,6 @@ body {
  }
 .footer-index {
 flex-direction: flex;
-ul {
-    padding: 10px;
-}
 }
 }
 
@@ -229,9 +226,10 @@ footer {
     font-size: 0.7rem;
     background-color: #111;
     justify-content: center;
+    margin-top: 20px;
 ul {
     align-items: center;
-    padding: 50px;
+    padding: 0;
    }
 
 a {
