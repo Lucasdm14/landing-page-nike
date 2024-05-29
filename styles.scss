@@ -20,7 +20,7 @@ body {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
    
 .header-index {
     nav {
@@ -78,6 +78,9 @@ flex-direction: flex;
     flex-direction: column;
     text-align: center;
     align-content: center;
+}
+ul {
+    padding: 0;
 }
 }
 
@@ -229,7 +232,7 @@ footer {
     margin-top: 20px;
 ul {
     align-items: center;
-    padding: 0;
+    padding: 10px;
    }
 
 a {
