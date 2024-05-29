@@ -67,6 +67,7 @@ body {
   }
   ul {
     padding: 0;
+    margin: 0;
   }
 }
 /* HEADER */
@@ -190,6 +191,7 @@ footer {
   background-color: #111;
   justify-content: center;
   margin-top: 20px;
+  padding: 10px 0px 50px;
 }
 footer ul {
   align-items: center;
